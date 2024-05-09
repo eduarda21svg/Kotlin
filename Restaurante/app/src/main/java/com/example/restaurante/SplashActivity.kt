@@ -9,7 +9,7 @@ import android.os.Looper
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // Define o conteúdo da Activity
+        // Está dizendo ao Android para usar o layout especificado pelo binding.root para exibir a interface do usuário da atividade atual.
         setContentView(R.layout.activity_splash)
         // Cria um handler para o looper principal
         Handler(Looper.getMainLooper()).postDelayed({
