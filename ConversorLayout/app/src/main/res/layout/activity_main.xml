@@ -42,13 +42,4 @@
         android:gravity="center"
         android:text="R$"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:id="@+id/textNome"
-        android:gravity="center"
-        android:text="Eduarda \n 1204"/>
-    
-
 </LinearLayout>
