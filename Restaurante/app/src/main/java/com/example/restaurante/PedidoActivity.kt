@@ -11,7 +11,7 @@ class PedidoActivity : AppCompatActivity() {
         // Atribui a variável binding no ActivityPedidoBinding
         binding = ActivityPedidoBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        // Define o conteúdo que vai ser visto no Activity
+    // Está dizendo ao Android para usar o layout especificado pelo binding.root para exibir a interface do usuário da atividade atual
         setContentView(binding.root)
 
         // Declara os valores passados pela intent
