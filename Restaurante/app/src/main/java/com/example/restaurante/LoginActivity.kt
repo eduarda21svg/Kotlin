@@ -15,13 +15,13 @@ class LoginActivity : AppCompatActivity() {
 
         // Define o layout de Login e a atribui a variável binding.
         binding = ActivityLoginBinding.inflate(layoutInflater)
+       // Está dizendo ao Android para usar o layout especificado pelo binding.root para exibir a interface do usuário da atividade atual
         setContentView(binding.root)
 
         // Define um OnClicklistener para o botão "Entrar".
         binding.buttonEntrar.setOnClickListener {
 
             // Define os valores da variável para o Username e a Senha inserida pelo usuário, converte para String e remove os espaços em branco.
-
             val username = binding.editUsername.text.toString().trim()
             val password = binding.editPassword.text.toString().trim()
 
