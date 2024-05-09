@@ -21,7 +21,7 @@ class PedidoActivity : AppCompatActivity() {
         val quantidadeSalada = i.getStringExtra("quantidadeSalada").toString().toInt()
         val quantidadeHamburguer = i.getStringExtra("quantidadeHamburguer").toString().toInt()
 
-        // Calcula os preços e cria um texto do resumo do pedido
+        // Cria uma string que contém um resumo do pedido, com informações sobre a quantidade e o preço de pizza, salada e hambúrguer.
         val texto = "Resumo do Pedido\n" +
                 "Pizza: $quantidadePizza Preço: ${quantidadePizza*8}\n" +
                 "Salada: $quantidadeSalada Preço: ${quantidadeSalada*10}\n" +
