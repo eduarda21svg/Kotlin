@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         super.onCreate(savedInstanceState)
+        // Está dizendo ao Android para usar o layout especificado pelo binding.root para exibir a interface do usuário da atividade atual
         setContentView(binding.root)
 
        // Passa o username do intent
